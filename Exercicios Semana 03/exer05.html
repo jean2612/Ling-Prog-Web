@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário Elaborado</title>
+</head>
+
+<body>
+    <form method="post">
+
+        <p>Dados Pessoais</p>
+        <p>Nome: <input type="text" name="nome" size="25" /></p>
+        <p>Idade: <input type="text" name="idade" size="25" /></p>
+
+        <p>Dados Profissionais</p>
+        <p>
+            Escolaridade: <select name="escolaridade">
+                <option value="medio">Ensino Médio</option>
+                <option value="tecnico">Ensino Técnico</option>
+                <option value="superior"> Ensino Superior</option>
+            </select>
+        </p>
+
+        <p>
+            Ârea de Atuação:
+            <input type="radio" name="atuacao" value="gerencia" checked>Gerência
+            <input type="radio" name="atuacao" value="financeiro" />Financeiro
+            <input type="radio" name="atuacao" value="recepcao" />Recepção
+        </p>
+
+    </form>
+</body>
+
+</html>

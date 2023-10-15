@@ -1,0 +1,70 @@
+<html lang="pt-BR">
+
+<head>
+    <title>Exercicio 10 - CSS</title>
+</head>
+<meta charset="utf-8" />
+<style>
+    div {
+        padding-bottom: 4px;
+    }
+
+    input[type=text] {
+        width: 400px;
+        padding: 5px 20px;
+        margin: 8px 0;
+        border: none;
+        background-color: #3CBC8D;
+        color: white;
+    }
+
+    /* estilizando o text */
+
+
+    button[type=submit] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 18px 26px;
+        margin: 4px 2px;
+        /* estilizando o buttuon*/
+
+    }
+</style>
+
+<body>
+
+    <form action="#" method="post">
+        <p>Dados Pessoais</p>
+        <div class="campo">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div class="campo">
+            <label for="idade">Idade: </label>
+            <input type="text" name="idade" id="idade" style="width: 5em">
+        </div>
+
+        <p>Dados Profissionais</p>
+        <div class="campo">
+            <label for="escolaridade">Escolaridade: </label>
+            <select name="escolaridade" id="escolaridade">
+                <option value="EB">Ensino Básico</option>
+                <option value="EM" selected>Ensino Médio</option>
+                <option value="ES">Ensino Superior</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for="atuacao">Área de Atuação </label>
+            <input type="radio" name="atuacao" id="atuacao" checked> Gêrencia
+            <input type="radio" name="atuacao" id="atuacao"> Financeiro
+            <input type="radio" name="atuacao" id="atuacao"> Recepção
+        </div>
+
+    </form>
+
+</body>
+
+</html>

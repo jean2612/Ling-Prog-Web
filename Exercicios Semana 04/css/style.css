@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+    font-size: 12px;
+}
+
+h1{
+    color: red;
+    text-align: center; /*d*/
+}
+
+/*h*/
+h2{
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 20;
+    border-style: outset;
+}
+
+/* g */
+img{ 
+    position: absolute;
+    width: 20%;
+    border-radius: 40px;
+    background-color:aqua;
+    opacity: 0.8;
+    margin-left: 500px;
+}
